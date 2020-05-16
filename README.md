@@ -3,8 +3,8 @@ A very complete Nuxt.js project template, which can be distributed as a Serverle
 
 ## Configure
 1. Rename *secrets.example.json* to *secrets.json*
-2. Set the `SERVICE_NAME` variable to preference
-  - If you want to setup a custom domain already, fill `DOMAIN` and `CERTIFICATE` too
+2. Set the secret variables to preference
+  - If you want to setup a custom domain already, fill `SERVICE_DOMAIN` and `SERVICE_CERTIFICATE`
   - After creating the certificate at your provider, run the command `sls create_domain` to setup the custom domain + certificate
 3. Rename `.env.example` to something like `.env.development` or just `.env`
 4. Provide values for the environment variables to preference

@@ -1,10 +1,10 @@
 service: ${self:custom.secrets.SERVICE_NAME}
 
 provider:
-  name: aws
+  name: ${self:custom.secrets.SERVERLESS_PROVIDER}
   runtime: nodejs12.x
-  region: eu-central-1
-  stage: dev
+  region: ${self:custom.secrets.PROVIDER_REGION}
+  stage: ${self:custom.secrets.NODE_ENV}
   environment:
     NODE_ENV: ${self:custom.secrets.NODE_ENV}
 functions:
