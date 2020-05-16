@@ -1,0 +1,32 @@
+service: ${self:custom.secrets.SERVICE_NAME}
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: eu-central-1
+  stage: dev
+  environment:
+    NODE_ENV: ${self:custom.secrets.NODE_ENV}
+functions:
+  web:
+    handler: handler.index
+    events:
+      - http: ANY /
+      - http: ANY /{proxy+}
+plugins:
+  - serverless-apigw-binary
+  - serverless-domain-manager
+  - serverless-offline
+custom:
+  secrets: ${file(secrets.json)}
+  apigwBinary:
+    types:
+      - '*/*'
+  # customDomain:
+  #   domainName: ${self:custom.secrets.DOMAIN}
+  #   certificateName: ${self:custom.secrets.CERTIFICATE}
+  #   stage: ${opt:stage, 'dev'}
+  #   createRoute53Record: true
+  serverless-offline:
+    httpPort: 3000
+    noPrependStageInUrl: true

@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-serverless-template",
+  "version": "1.0.0",
+  "description": "A very complete Nuxt.js project template, which can be distributed as a Serverless function",
+  "author": "Joost de Lange",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "deploy": "nuxt build && sls deploy"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.10.3",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "nuxt": "^2.12.2",
+    "serverless-apigw-binary": "^0.4.4",
+    "serverless-http": "^2.4.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^3.0.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.0.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "node-sass": "^4.14.1",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^8.0.2",
+    "serverless-domain-manager": "^4.0.1",
+    "serverless-offline": "^6.1.5"
+  }
+}
