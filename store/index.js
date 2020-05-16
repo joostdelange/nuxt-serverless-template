@@ -1,6 +1,4 @@
-export const state = () => ({
-  apiUrl: process.env.API_URL,
-});
+export const state = () => ({});
 
 export const getters = {};
 
