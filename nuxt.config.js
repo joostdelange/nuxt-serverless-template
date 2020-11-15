@@ -1,10 +1,9 @@
-require('./dotenv.config');
+import './dotenv.config';
 
-module.exports = {
-  mode: 'universal',
+export default {
   head: {
     htmlAttrs: {
-      lang: 'nl',
+      lang: process.env.APP_LANGUAGE || 'en',
     },
     title: process.env.APP_TITLE || '',
     meta: [
