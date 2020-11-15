@@ -27,6 +27,6 @@
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^8.0.2",
     "serverless-domain-manager": "^5.1.0",
-    "serverless-offline": "^6.1.5"
+    "serverless-offline": "^6.8.0"
   }
 }
