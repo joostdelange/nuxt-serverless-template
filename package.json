@@ -14,7 +14,7 @@
     "@nuxtjs/dotenv": "^1.4.1",
     "nuxt": "^2.14.7",
     "serverless-apigw-binary": "^0.4.4",
-    "serverless-http": "^2.4.1"
+    "serverless-http": "^2.6.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.0.0",
