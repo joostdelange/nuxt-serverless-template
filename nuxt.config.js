@@ -25,7 +25,6 @@ module.exports = {
     '@nuxtjs/axios',
   ],
   buildModules: [
-    '@nuxtjs/eslint-module',
     '@nuxtjs/dotenv',
   ],
   axios: {
