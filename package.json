@@ -10,7 +10,7 @@
     "deploy": "nuxt build && sls deploy"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/axios": "^5.12.3",
     "@nuxtjs/dotenv": "^1.4.1",
     "nuxt": "^2.14.7",
     "serverless-apigw-binary": "^0.4.4",
