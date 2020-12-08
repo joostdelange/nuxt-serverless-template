@@ -12,7 +12,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.12.3",
     "@nuxtjs/dotenv": "^1.4.1",
-    "nuxt": "^2.14.9",
+    "nuxt": "^2.14.10",
     "serverless-apigw-binary": "^0.4.4",
     "serverless-http": "^2.6.0"
   },
