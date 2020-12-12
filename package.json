@@ -22,7 +22,7 @@
     "eslint-plugin-nuxt": "^2.0.0",
     "node-sass": "^5.0.0",
     "pug": "^2.0.4",
-    "pug-plain-loader": "^1.0.0",
+    "pug-plain-loader": "^1.1.0",
     "sass-loader": "^10.1.0",
     "serverless-domain-manager": "^5.1.0"
   }
