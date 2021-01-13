@@ -23,7 +23,7 @@
     "node-sass": "^5.0.0",
     "pug": "^3.0.0",
     "pug-plain-loader": "^1.1.0",
-    "sass-loader": "^10.1.0",
+    "sass-loader": "^10.1.1",
     "serverless-domain-manager": "^5.1.0"
   }
 }
